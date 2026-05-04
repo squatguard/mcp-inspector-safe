@@ -2,8 +2,8 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
 const server = new McpServer({
-  name: "mcp-squatguard-template",
-  version: "1.0.0",
+  name: "mcp-inspector-safe",
+  version: "0.1.0",
 });
 
 // Register weather tools
